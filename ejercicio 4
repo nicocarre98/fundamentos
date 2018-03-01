@@ -1,0 +1,13 @@
+Proceso inicio
+	Escribir 'horas trabajadas al mes';
+	Leer horas;
+	Escribir 'precio por hora';
+	Leer precio;
+	sb<-horas*precio;
+	Si sb>8272 Entonces
+		sn<-sb*0.87;
+	Sino
+		sn<-sb;
+	FinSi
+	Escribir sn;
+FinProceso
