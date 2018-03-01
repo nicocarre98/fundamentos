@@ -1,0 +1,24 @@
+// descuento iva.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std; //para utilizar teclado y monitor
+
+void main() {
+	//declarar variables
+	float horastrabajadas, precioporhora, sueldobruto, sueldoneto;
+	cout<<"horastrabajadas";
+	cin>>horastrabajadas;
+	cout<<"precioporhora: ";
+	cin>>precioporhora;
+	sueldobruto=horastrabajadas*precioporhora;
+	if   (sueldobruto>8272)
+		sueldoneto=sueldobruto*0.87;
+	else 
+		sueldoneto=sueldobruto;
+	cout<<"sueldoneto";
+	getch();
+}
