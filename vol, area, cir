@@ -1,0 +1,21 @@
+// volume area y circunferencia esfera
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+ 
+using namespace std;
+void main(){
+	float diam,rad,circ,area,pi=3.1415,vol;
+	cout<<"Ingrese el diametro: "<<endl;
+	cin>>diam;
+	rad=diam/2;
+	circ=pi*diam;
+	cout<<"la circunferencia es: "<<circ<<endl;
+	area=4*pi*rad*rad;
+	cout<<"El area es: "<<area<<endl;
+	vol=4/3*pi*rad*rad*rad;
+	cout<<"el volumen es: "<<vol<<endl;
+	getch();
+}
+
