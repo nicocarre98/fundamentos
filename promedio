@@ -1,0 +1,39 @@
+//promedio
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+ 
+using namespace std;
+void main(){
+	int a,b,c; float p;
+	cout<<"Ingrese tres numeros ENTEROS positivos menores a 10; a, b, c: "<<endl;
+	cout<<"Ingrese a: "<<endl;
+	cin>>a;
+	cout<<"Ingrese b: "<<endl;
+	cin>>b;
+	cout<<"Ingrese c: "<<endl;
+	cin>>c;
+	if(a<=10&&a>=0)
+
+		if(b<=10&&b>=0)
+
+			if(c<=10&&c>=0)
+			{
+
+				p=(a+b+c)/3;
+				cout<<"El promedio de los enteros es: "<<p<<endl;
+			}
+
+			else
+				cout<<"Error en a.";
+
+		else
+			cout<<"Error en b.";
+
+	else
+		cout<<"Error en c.";
+	
+	getch();
+
+}
