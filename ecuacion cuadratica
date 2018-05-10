@@ -1,0 +1,17 @@
+// ecuacioncuadratica.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+float discriminante (float a, float b, float c);
+float solucionunica (float a, float b);
+float solucionesreales(float a, float b,float d,float &x1);
+void solucionesimaginarias
+
+   
+    
