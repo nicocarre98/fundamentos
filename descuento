@@ -1,0 +1,26 @@
+
+// Descuento total
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main(){
+	float x,y,z;
+	cout<<"Ingrese x: ";
+	cin>>x;
+	cout<<"Ingrese y: ";
+	cin>>y;
+	z = x * y;
+	if(x>=3){
+		z = y-(y*0.2);
+	}
+	if(x<=2){
+		z = y-(y*0.1);
+	}
+	cout<<"Total a pagar es: "<<z<<endl;
+	getch();
+}
